@@ -1,4 +1,5 @@
-* General Styles for Product Page */ .products-page {
+/* General Styles for Product Page */
+.products-page {
   padding: 20px;
   background-color: #f9f9f9;
 }
@@ -17,6 +18,7 @@
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .product {
@@ -26,7 +28,8 @@
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 250px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background-color 0.3s ease;
 }
 
 .product img {
@@ -39,6 +42,7 @@
 .product:hover {
   transform: translateY(-10px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  background-color: #f0f0f0; /* Light background color on hover */
 }
 
 .product:hover img {
@@ -62,9 +66,35 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .product button:hover {
   background-color: #003c99;
+  transform: translateY(-2px); /* Button lift effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .product-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .category h3 {
+    font-size: 1.4rem;
+  }
+
+  .product {
+    width: 100%;
+    max-width: 280px;
+  }
 }

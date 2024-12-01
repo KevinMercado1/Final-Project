@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <!-- Encabezado -->
     <header class="header">
       <div class="header-content">
         <h1>Bienvenido a EmpeñosYA</h1>
@@ -17,69 +18,78 @@
       </div>
     </header>
 
+    <!-- Hero Section -->
     <section class="hero">
       <div class="hero-content">
-        <h1>Empeña y Pierde Con confianza</h1>
+        <h1>Empeña y Pierde Con Confianza</h1>
         <p>Descubre los carros que la gente pierde y compra barato</p>
         <a href="#productos" class="btn hero-btn">Ver productos</a>
       </div>
       <div class="hero-bg"></div>
     </section>
 
-    <section class="products" id="productos">
-      <h2>Nuestros Productos</h2>
-      <div class="product-list">
-        <div class="product">
-          <img src="assets/image/imagen1.jpg" alt="Producto 1" />
-          <h3>Producto 1</h3>
-          <p>Descripción breve del producto 1</p>
-          <p class="price">$10.00</p>
-          <button class="add-to-cart" data-name="Producto 1" data-price="10">
-            Añadir al carrito
-          </button>
-        </div>
+    <!-- Productos -->
+    <main>
+      <section class="products" id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="product-list">
+          <article class="product">
+            <img src="assets/image/imagen1.jpg" alt="Imagen del Producto 1" />
+            <h3>Producto 1</h3>
+            <p>Descripción breve del producto 1.</p>
+            <p class="price">$10.00</p>
+            <button class="add-to-cart" data-name="Producto 1" data-price="10">
+              Añadir al carrito
+            </button>
+          </article>
 
-        <div class="product">
-          <img src="assets/image/imagen2.jpg" alt="Producto 2" />
-          <h3>Producto 2</h3>
-          <p>Descripción breve del producto 2</p>
-          <p class="price">$20.00</p>
-          <button class="add-to-cart" data-name="Producto 1" data-price="20">
-            Añadir al carrito
-          </button>
-        </div>
+          <article class="product">
+            <img src="assets/image/imagen2.jpg" alt="Imagen del Producto 2" />
+            <h3>Producto 2</h3>
+            <p>Descripción breve del producto 2.</p>
+            <p class="price">$20.00</p>
+            <button class="add-to-cart" data-name="Producto 2" data-price="20">
+              Añadir al carrito
+            </button>
+          </article>
 
-        <div class="product">
-          <img src="assets/image/imagen3.jpg" alt="Producto 3" />
-          <h3>Producto 1</h3>
-          <p>Descripción breve del producto 3</p>
-          <p class="price">$30.00</p>
-          <button class="add-to-cart" data-name="Producto 3" data-price="30">
-            Añadir al carrito
-          </button>
+          <article class="product">
+            <img src="assets/image/imagen3.jpg" alt="Imagen del Producto 3" />
+            <h3>Producto 3</h3>
+            <p>Descripción breve del producto 3.</p>
+            <p class="price">$30.00</p>
+            <button class="add-to-cart" data-name="Producto 3" data-price="30">
+              Añadir al carrito
+            </button>
+          </article>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
+
+    <!-- Características -->
     <section class="features">
-      <h2>Por qué elegirnos</h2>
-      <div class="feature-list">
-        <img src="./assets/image/acampando.jpg" alt="Envío rapido" />
-        <h3>Envío rapido</h3>
-        <p>recibe tus productos en tiempo récord.</p>
-      </div>
+      <h2>¿Por qué elegirnos?</h2>
+      <div class="features-list">
+        <article class="feature">
+          <img src="./assets/image/acampando.jpg" alt="Envío rápido" />
+          <h3>Envío rápido</h3>
+          <p>Recibe tus productos en tiempo récord.</p>
+        </article>
 
-      <div class="feature-list">
-        <img src="./assets/image/vista-de-cielo.jpg" alt="Alta calidad" />
-        <h3>Alta calidad</h3>
-        <p>Solo seleccionamos productos de alta calidad</p>
-      </div>
+        <article class="feature">
+          <img src="./assets/image/vista-de-cielo.jpg" alt="Alta calidad" />
+          <h3>Alta calidad</h3>
+          <p>Solo seleccionamos productos de alta calidad.</p>
+        </article>
 
-      <div class="feature-list">
-        <img src="./assets/image/vista-montana-2.jpg" alt="Ofertas" />
-        <h3>Ofertas</h3>
-        <p>Aprovecha las ofertas exclusivas</p>
+        <article class="feature">
+          <img src="./assets/image/vista-montana-2.jpg" alt="Ofertas" />
+          <h3>Ofertas</h3>
+          <p>Aprovecha las ofertas exclusivas.</p>
+        </article>
       </div>
     </section>
+
     <script src="assets/js/script.js"></script>
   </body>
 </html>
