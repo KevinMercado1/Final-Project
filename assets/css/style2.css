@@ -1,0 +1,70 @@
+* General Styles for Product Page */ .products-page {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.category {
+  margin: 40px 0;
+}
+
+.category h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #0056d6;
+}
+
+.product-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product:hover img {
+  transform: scale(1.1);
+}
+
+.product h4 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.product p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.product button {
+  background: #0056d6;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+  background-color: #003c99;
+}
