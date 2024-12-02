@@ -104,3 +104,5 @@ document.addEventListener('DOMContentLoaded', () => {
   renderProducts();
   loadCartItems();
 });
+
+// recordar que tenemos que montar las imagenes para que carguen 
