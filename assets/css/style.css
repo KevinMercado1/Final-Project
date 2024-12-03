@@ -149,7 +149,6 @@ header nav a:hover {
 }
  
 .social-icons image{
-  color:#000206;
   width: 30px;
   height: 30px;
   margin: 0 10 px;
@@ -158,3 +157,11 @@ header nav a:hover {
 .footer-links {
   margin-top: 10px;
 }
+.footer-links {
+  margin-top: 10px;
+  color:red;
+  background-color: skyblue;
+}
+
+.a {
+color: aliceblue;}
