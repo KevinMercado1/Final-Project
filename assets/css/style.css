@@ -135,3 +135,26 @@ header nav a:hover {
   height: 80px;
   margin-bottom: 10px;
 }
+
+.footer{
+  background-color: #003c99;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+ 
+.footer-container{
+  max-width: 1200px;
+  margin: 0 auto
+}
+ 
+.social-icons image{
+ 
+  width: 30px;
+  height: 30px;
+  margin: 0 10 px;
+}
+ 
+.footer-links {
+  margin-top: 10px;
+}
