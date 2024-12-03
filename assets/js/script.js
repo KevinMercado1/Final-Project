@@ -42,15 +42,15 @@ let cart = JSON.parse(localStorage.getItem('cart')) || [];
  
 // Función para añadir productos al carrito
 
- //function addToCart(name, price) {
+ function addToCart(name, price) {
 
-   //cart.push({ name, price });
+   cart.push({ name, price });
 
-   //localStorage.setItem('cart', JSON.stringify(cart));
+   localStorage.setItem('cart', JSON.stringify(cart));
 
-   //alert(`${name} añadido al carrito.`);
+   alert(`${name} añadido al carrito.`);
 
- //}
+ }
  
 // Función para cargar los productos del carrito en carrito.html
 
